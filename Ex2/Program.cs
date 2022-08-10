@@ -4,7 +4,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 string str_number = Math.Abs(number).ToString();
 if (str_number.Length > 2)
 {
-Console.WriteLine(str_number[2]);
+  Console.WriteLine(str_number[2]);
 }
 else
 {
